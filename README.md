@@ -84,22 +84,14 @@ sqlite3
 
 [SQLite 3](https://gist.github.com/stormwild/cb3cd7369897ce9322832be20535b96d)
 
-```
--- Create a new table called 'Courses' in schema 'dbo'
--- Drop the table if it already exists
--- IF OBJECT_ID('dbo.Courses', 'U') IS NOT NULL
--- DROP TABLE dbo.Courses
--- GO
--- Create the table in the specified schema
+```sql
 CREATE TABLE Courses
 (
-    Id INT NOT NULL PRIMARY KEY, -- primary key column
-    [Name] [NVARCHAR](255) NOT NULL,
-    Author [NVARCHAR](255) NOT NULL
-    -- specify more columns here
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Name TEXT NOT NULL,
+    Author TEXT NOT NULL,
+    Created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
-GO
-Tables
 ```
 
 ## Composer

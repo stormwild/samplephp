@@ -4,5 +4,4 @@ CREATE TABLE Courses
     Name TEXT NOT NULL,
     Author TEXT NOT NULL,
     Created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
-    -- specify more columns here
 );
