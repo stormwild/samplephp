@@ -94,7 +94,7 @@ CREATE TABLE Courses
 );
 ```
 
-## Composer
+### Composer
 
 Error:
 
@@ -108,3 +108,7 @@ Composer is operating significantly slower than normal because you do not have t
 ```
 sudo apt-get install php-curl
 ```
+
+### Reference
+
+[PHP: The Big Picture](https://www.pluralsight.com/courses/php-big-picture)
