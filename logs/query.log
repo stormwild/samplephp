@@ -1,0 +1,2 @@
+[2022-03-25T23:12:35.873984+08:00] query_log.INFO: Query executed {"query":"INSERT INTO Courses ([Name], Author) VALUES ('High Performance PHP', 'Jonathan Klein')"} []
+[2022-03-25T23:12:35.875685+08:00] query_log.INFO: Query executed {"query":"SELECT * FROM Courses"} []

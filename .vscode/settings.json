@@ -1,0 +1,11 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "SamplePHPDb",
+      "database": "\\\\wsl$\\Ubuntu-20.04\\home\\alexander\\source\\repos\\php\\samplephp\\db\\samplephp.db"
+    }
+  ],
+  "sqltools.useNodeRuntime": true
+}
